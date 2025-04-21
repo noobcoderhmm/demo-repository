@@ -11,6 +11,7 @@ func IsEmailValid(email string) bool {
 	return re.MatchString(email)
 }
 
+
 // CalculateSum returns the sum of two integers
 func CalculateSum(a, b int) int {
 	return a + b
