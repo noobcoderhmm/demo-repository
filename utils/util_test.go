@@ -13,7 +13,7 @@ func TestCalculateSum_PositiveNegativeZero_456(t *testing.T) {
 		a, b     int
 		expected int
 	}{
-		{a: 5, b: 3, expected: 8},
+		{a: 5, b: 3, expectd: 8},
 		{a: -5, b: -3, expected: -8},
 		{a: 5, b: -3, expected: 2},
 		{a: 0, b: 0, expected: 0},
