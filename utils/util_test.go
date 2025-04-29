@@ -27,3 +27,21 @@ func TestCalculateSum_PositiveNegativeZero_456(t *testing.T) {
 	}
 }
 
+// Test generated using Keploy
+
+func TestIsEmailValid_ValidEmails_789(t *testing.T) {
+	// Arrange
+	validEmails := []string{
+		"test@example.com",
+		"user.name+tag+sorting@example.com",
+		"x@example.com",
+		"example-indeed@strange-example.com",
+	}
+
+	// Act & Assert
+	for _, email := range validEmails {
+		result := IsEmailValid(email)
+		assert.True(t, result, "Expected email %s to be valid, but got invalid", email)
+	}
+}
+
