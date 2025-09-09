@@ -16,3 +16,10 @@ func IsEmailValid(email string) bool {
 func CalculateSum(a, b int) int {
 	return a + b
 }
+
+func CalculateSub(a, b int) int {
+	return a - b
+}
+func Calculatemul(a, b int) int {
+	return a * b
+}
